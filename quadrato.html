@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrato</title>
+<link rel="stylesheet" href="default.css">
+<link rel="icon" type="image/x-icon" href="images/atom.svg">
+<script>
+function AreaPerimetro(l) {
+var P = 4*l;
+var A = l * l;
+areaeP.outperimetro.value = P;
+areaeP.outarea.value = A;
+return;
+}
+</script>
+</head>
+<body>
+
+<form name="areaeP">
+<label>Misura del lato</label><br>
+<input type="text" id="lato" name="lato" value="">
+<br>
+<input type="button" value="Area" onclick="AreaPerimetro(document.areaeP.lato.value)"> <br>
+Perimetro <input type="text" id="outperimetro" value=""> <br>
+Area <input type="text" id="outarea" value="">
+</form>
+
+<br>
+<br>
+<br>
+<br>
+
+<div align=left >
+<a href="index.html"><img src="./immagini/casetta-3-d.jpeg" width="2%"></a>
+</div>
+</body>
+
+</html>
